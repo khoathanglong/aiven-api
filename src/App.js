@@ -84,7 +84,7 @@ class App extends Component {
     if(!this.state.getCloudsInfo){
       return (
         <div style={{textAlign:'center', margin:'100px auto'}}>
-            <Image responsive src={LOGO} />
+            <Image src={LOGO} width="70%" />
             <div className="loader" style={{margin:'20px auto'}}></div>
         </div>
       )
