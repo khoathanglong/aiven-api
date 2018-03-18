@@ -8,10 +8,10 @@ const Clouds =(props)=>{
         <thead style={{backgroundColor:'#ff504d', color:'white'}}>
           <tr>
             <th>#</th>
-            <th >Cloud Name</th>
+            <th >Cloud name</th>
             <th >Location</th>
             <th style={{cursor:'pointer'}} onClick={props.handleClick}>
-             {`Distance `}
+             {`Distance to your location `}
              {props.distanceIncrease?<span>&uarr;</span>: <span>&darr;</span>}
             </th>
           </tr>
